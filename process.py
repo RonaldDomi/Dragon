@@ -73,3 +73,4 @@ def collision():
                 elif enemy.velX < 0:
                     enemy.image = pygame.image.load("images/frozen_bat.png")
                     enemy.image = pygame.transform.flip(enemy.image, True, False)
+#end

@@ -103,3 +103,5 @@ class Projectile(pygame.sprite.Sprite):
             if proj.rect.x < 0 or proj.rect.x + proj.rect.width > ScreenWidth:
                 Projectile.List.remove(proj)
                 del(proj)
+
+#end
